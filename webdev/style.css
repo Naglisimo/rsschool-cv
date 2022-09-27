@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  font-family: 'roboto';
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  width: 184px;
+  height: 46px;
+  font-size: 14px;
+  background: #00AFDB;
+  color: #FFF
+}
+
+button:hover {
+  background: #009CC2;
+}
+
+.img {
+  object-fit: cover;
+  width: 407px;
+  height: 582px;
+}
+
+#home {
+  background: url("./assets/background.bmp") no-repeat center center;
+  ;
+  background-size: cover;
+}
+
+#newsletter {
+  background: url("./assets/signupBackground.bmp") no-repeat center center;
+  background-size: cover;
+}
+
+.fullSize {
+  width: auto;
+  height: 842px;
+
+}
+
+.halfSize {
+  width: auto;
+  height: 504px;
+}
+
+.navbar {
+  position: relative;
+  height: 120px;
+  width: 800px;
+  padding: 60px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.padding16 {
+  padding: 16px 0;
+}
+
+.flex-column {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.box {
+  width: 407px;
+}
+
+.center {
+  align-self: center;
+}
+
+.center button {
+  margin: 0 auto;
+}
+
+.center img {
+  padding: 15px;
+}
+
+.text-white {
+  color: #FFF
+}
+
+.text-black {
+  color: #373737;
+}
+
+.bg-white {
+  background: #FFF
+}
+
+.bg-grey {
+  background: #F5F6F7;
+
+}

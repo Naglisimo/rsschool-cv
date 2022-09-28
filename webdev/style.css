@@ -19,6 +19,12 @@ a {
   font-family: 'roboto';
 }
 
+h4 {
+  font-family: 'roboto';
+  font-weight: 400;
+  line-height: 25px;
+}
+
 h1 {
   font-size: 64px;
 }
@@ -71,9 +77,9 @@ button:hover {
 .navbar {
   position: relative;
   height: 120px;
-  width: 800px;
+  max-width: 1600px;
   padding: 60px 0;
-  margin: 0 auto;
+  margin: 0 180px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -87,6 +93,14 @@ button:hover {
 
 .padding16 {
   padding: 16px 0;
+}
+
+.padding32 {
+  padding: 32px 0;
+}
+
+.marginXl {
+  margin-top: 200px;
 }
 
 .flex-column {
@@ -108,11 +122,28 @@ button:hover {
 }
 
 .box {
-  width: 407px;
+  width: 500px;
+}
+
+.box1 {
+  width: 400px
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: start;
 }
 
 .center {
   align-self: center;
+}
+
+.align-start {
+  align-self: flex-start;
 }
 
 .center button {

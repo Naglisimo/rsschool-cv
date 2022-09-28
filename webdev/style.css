@@ -33,6 +33,13 @@ h4 {
   font-size: 18px;
 }
 
+input {
+  height: 46px;
+  width: 340px;
+  margin: 0;
+  padding: 0;
+}
+
 button {
   border: none;
   width: 184px;
@@ -44,6 +51,25 @@ button {
 
 button:hover {
   background: #009CC2;
+}
+
+li {
+  list-style: none;
+  margin-right: 32px
+}
+
+.square {
+  width: 66px;
+  height: 50px;
+  margin: 0;
+  padding: 0
+}
+
+.square-btn {
+  position: relative;
+  background: #009CC2;
+  width: 66px;
+  height: 46px;
 }
 
 .img {
@@ -61,6 +87,14 @@ button:hover {
 #newsletter {
   background: url("./assets/signupBackground.bmp") no-repeat center center;
   background-size: cover;
+}
+
+.footer {
+  background: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
 }
 
 .fullSize {
@@ -85,7 +119,7 @@ button:hover {
   justify-content: space-between;
 }
 
-.navbar a {
+a {
   text-decoration: none;
   color: #FFF;
   cursor: pointer;
@@ -103,6 +137,14 @@ button:hover {
   margin-top: 200px;
 }
 
+.padding-right {
+  padding-left: 16px;
+}
+
+.gap {
+  column-gap: 30px;
+}
+
 .flex-column {
   position: relative;
   margin: auto;
@@ -115,6 +157,11 @@ button:hover {
   margin: auto;
   display: flex;
   flex-direction: row;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
 }
 
 .space-around {
